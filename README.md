@@ -4,6 +4,7 @@ Esse projeto tem como objetivo registrar um exemplo de criação de api que inte
 Para isso criamos nosso banco de dados com Docker
 
 ...
+
 docker run -d \
 	--name estudo-postgres \
       -e POSTGRES_USER=postgress_user \
