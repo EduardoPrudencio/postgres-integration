@@ -11,3 +11,6 @@ docker run -d \
 	-e PGDATA=/var/lib/postgresql/data/pgdata \
 	-p 5432:5432 \
 	postgres
+	
+Para usarmos o Entity Framework inserimos os pacotes Microsoft.EntityFrameworkCore, Microsoft.EntityFrameworkCore.Tools e Npgsql.EntityFrameworkCore.PostgresSQL.
+
